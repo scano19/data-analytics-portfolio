@@ -1,0 +1,14 @@
+﻿Periodo,Año,Trimestre,Exposicion_Crypto_Pct,Exposicion_NASDAQ_Pct,Exposicion_Cash_Pct,Nivel_Riesgo,Color_Semaforo,Accion_Recomendada
+2024 Q4,2024,4,70,30,0,Bajo,Verde,MANTENER
+2025 Q1,2025,1,70,30,0,Bajo,Verde,MANTENER
+2025 Q2,2025,2,70,30,0,Medio,Amarillo,VIGILAR
+2025 Q3,2025,3,40,40,20,Alto,Naranja,REDUCIR
+2025 Q4,2025,4,20,30,50,Muy Alto,Rojo,VENDER
+2026 Q1,2026,1,10,10,80,Crítico,Rojo Oscuro,DEFENSIVA
+2026 Q2,2026,2,10,10,80,Crítico,Rojo Oscuro,DEFENSIVA
+2026 Q3,2026,3,10,10,80,Crítico,Rojo Oscuro,DEFENSIVA
+2026 Q4,2026,4,10,10,80,Crítico,Rojo Oscuro,DEFENSIVA
+2027 Q1,2027,1,10,20,70,Alto,Amarillo,PREPARAR
+2027 Q2,2027,2,35,35,30,Medio,Verde,COMPRAR
+2027 Q3,2027,3,50,30,20,Bajo,Verde,COMPRAR
+2027 Q4,2027,4,65,25,10,Bajo,Verde,MANTENER

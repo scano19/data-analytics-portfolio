@@ -1,0 +1,5 @@
+﻿Fase_Numero,Fase_Nombre,Duracion_Meses,Retorno_Tipico_Pct,Volatilidad,Descripcion,Estrategia_Recomendada
+1,Pre-Halving,12,100,Media,"Anticipación al halving, acumulación institucional",Acumular gradualmente
+2,Bull Market,18,400,Alta,"Máxima euforia, ATH, FOMO retail",Tomar ganancias parciales
+3,Bear Market,12,-75,Muy Alta,"Corrección profunda, capitulación","Mantener cash, aguantar"
+4,Acumulación,6,10,Baja,"Silencio mediático, oportunidad de compra",Comprar agresivamente

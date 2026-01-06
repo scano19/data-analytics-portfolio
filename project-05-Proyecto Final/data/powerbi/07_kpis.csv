@@ -1,0 +1,7 @@
+﻿metrica,valor,unidad,periodo,color
+CRYPTO 7 Return,4140.6,%,2020-2024,#e74c3c
+NASDAQ 10 Return,144.2,%,2020-2024,#3498db
+Mejor Estrategia,30.0,% NASDAQ,30/70 Mix,#27ae60
+Sharpe Óptimo,1.2,ratio,30/70 Mix,#f39c12
+Correlación BTC-NASDAQ,0.35,coef,2020-2024,#9b59b6
+Bitcoin Lead Time,3.0,días,Adelantado,#e67e22

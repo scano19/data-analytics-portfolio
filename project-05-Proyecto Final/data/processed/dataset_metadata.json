@@ -1,0 +1,196 @@
+{
+  "dataset_info": {
+    "total_rows": 50109,
+    "total_columns": 9,
+    "total_assets": 17,
+    "crypto_assets": 7,
+    "stock_assets": 10,
+    "period_start": "2012-01-03T00:00:00",
+    "period_end": "2024-12-30T00:00:00",
+    "years_coverage": 13.0
+  },
+  "column_definitions": {
+    "date": "Fecha de cotizaci\u00f3n (YYYY-MM-DD)",
+    "open": "Precio de apertura",
+    "high": "Precio m\u00e1ximo del d\u00eda",
+    "low": "Precio m\u00ednimo del d\u00eda",
+    "close": "Precio de cierre (principal para an\u00e1lisis)",
+    "volume": "Volumen de transacciones",
+    "adj_close": "Precio de cierre ajustado (solo stocks)",
+    "asset_name": "Nombre del activo (ej: BITCOIN, AAPL)",
+    "asset_class": "Tipo de activo (crypto/stock)",
+    "symbol": "S\u00edmbolo t\u00e9cnico (ej: BTC-USD, AAPL)"
+  },
+  "important_differences": {
+    "trading_frequency": {
+      "crypto": "365 d\u00edas/a\u00f1o (24/7/365)",
+      "stocks": "~252 d\u00edas/a\u00f1o (solo d\u00edas h\u00e1biles)",
+      "implication": "Afecta correlaciones y an\u00e1lisis de volatilidad"
+    },
+    "data_availability": {
+      "crypto_newer_assets": "Algunos activos crypto tienen menos historia (ej: Solana desde 2020)",
+      "stock_consistent": "Todas las acciones tienen datos desde 2012",
+      "recommendation": "Considerar en an\u00e1lisis temporales"
+    }
+  },
+  "files_generated": {
+    "combined": "crypto_stocks_clean_raw.csv",
+    "crypto_only": "cryptocurrency_data_clean.csv",
+    "stocks_only": "stocks_data_clean.csv"
+  },
+  "assets_included": [
+    {
+      "Asset": "AAPL",
+      "Tipo": "stock",
+      "Symbol": "AAPL",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "AMD",
+      "Tipo": "stock",
+      "Symbol": "AMD",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "AMZN",
+      "Tipo": "stock",
+      "Symbol": "AMZN",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "BINANCECOIN",
+      "Tipo": "crypto",
+      "Symbol": "BNB-USD",
+      "Filas": 2609,
+      "Inicio": "2017-11-09",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 7.1
+    },
+    {
+      "Asset": "BITCOIN",
+      "Tipo": "crypto",
+      "Symbol": "BTC-USD",
+      "Filas": 3758,
+      "Inicio": "2014-09-17",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 10.3
+    },
+    {
+      "Asset": "CARDANO",
+      "Tipo": "crypto",
+      "Symbol": "ADA-USD",
+      "Filas": 2609,
+      "Inicio": "2017-11-09",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 7.1
+    },
+    {
+      "Asset": "DOGECOIN",
+      "Tipo": "crypto",
+      "Symbol": "DOGE-USD",
+      "Filas": 2609,
+      "Inicio": "2017-11-09",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 7.1
+    },
+    {
+      "Asset": "ETHEREUM",
+      "Tipo": "crypto",
+      "Symbol": "ETH-USD",
+      "Filas": 2609,
+      "Inicio": "2017-11-09",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 7.1
+    },
+    {
+      "Asset": "GOOGL",
+      "Tipo": "stock",
+      "Symbol": "GOOGL",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "INTC",
+      "Tipo": "stock",
+      "Symbol": "INTC",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "META",
+      "Tipo": "stock",
+      "Symbol": "META",
+      "Filas": 3174,
+      "Inicio": "2012-05-18",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 12.6
+    },
+    {
+      "Asset": "MSFT",
+      "Tipo": "stock",
+      "Symbol": "MSFT",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "NVDA",
+      "Tipo": "stock",
+      "Symbol": "NVDA",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "POLKADOT",
+      "Tipo": "crypto",
+      "Symbol": "DOT-USD",
+      "Filas": 1594,
+      "Inicio": "2020-08-20",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 4.4
+    },
+    {
+      "Asset": "QCOM",
+      "Tipo": "stock",
+      "Symbol": "QCOM",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    },
+    {
+      "Asset": "SOLANA",
+      "Tipo": "crypto",
+      "Symbol": "SOL-USD",
+      "Filas": 1726,
+      "Inicio": "2020-04-10",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 4.7
+    },
+    {
+      "Asset": "TSLA",
+      "Tipo": "stock",
+      "Symbol": "TSLA",
+      "Filas": 3269,
+      "Inicio": "2012-01-03",
+      "Fin": "2024-12-30",
+      "A\u00f1os": 13.0
+    }
+  ]
+}
