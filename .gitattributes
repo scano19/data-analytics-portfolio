@@ -1,0 +1,26 @@
+# Normalización básica de texto
+* text=auto
+
+# CSV y datos tabulares
+*.csv text eol=lf
+*.tsv text eol=lf
+
+# Scripts y notebooks
+*.py text eol=lf
+*.ipynb text
+
+# Markdown y docs
+*.md text eol=lf
+
+# Archivos binarios (no diffs)
+*.xlsx binary
+*.xls binary
+*.ods binary
+*.pdf binary
+*.docx binary
+*.odt binary
+
+# Imágenes
+*.png binary
+*.jpg binary
+*.jpeg binary
